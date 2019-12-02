@@ -75,7 +75,7 @@ export class Dashboard extends Component {
                         </Row>
                         <Row>
                             <Col>
-                                <CButton  onClick={this.setTitle}>Set Title</CButton>
+                                <CButton  click={this.setTitle}>Set Title</CButton>
                             </Col>
                         </Row>
                     </Form>
@@ -87,7 +87,7 @@ export class Dashboard extends Component {
                         </Row>
                         <Row>
                             <Col>
-                                <CButton onClick={this.setName}>Set Name</CButton>
+                                <CButton click={this.setName}>Set Name</CButton>
                             </Col>
                         </Row>
                     </Form>
